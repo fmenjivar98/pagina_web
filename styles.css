@@ -146,7 +146,7 @@ body {
 /* 8. Adaptación a móviles */
 @media (max-width: 576px) {
     .imagen-carrusel {
-        height: 300px;
+        height: 400px;
     }
 
     .carousel-caption {
@@ -165,8 +165,8 @@ body {
     .tarjeta-juego .card-img-top {
         display: block !important;
         width: 100%;
-        height: 220px;
-        object-fit: contain;
+        height: 280px;
+        object-fit: cover;
         object-position: center;
         background-color: #171717;
     }
