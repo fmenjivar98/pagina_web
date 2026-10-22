@@ -32,6 +32,7 @@ body {
     height: 480px;
     object-fit: cover;
     filter: brightness(55%);
+    
 }
 
 .carousel-caption {
@@ -72,6 +73,7 @@ body {
     overflow: hidden;
     transition: transform 0.3s ease,
                 border-color 0.3s ease;
+    
 }
 
 .tarjeta-juego:hover {
@@ -87,6 +89,13 @@ body {
 .etiqueta-gamer {
     background-color: #6d28d9;
     font-weight: normal;
+}
+
+.tarjeta-juego .card-img-top {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* 6. Noticias */
